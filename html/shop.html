@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neo-Ässä Kioski</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <div id="shop-menu" class="hidden">
+        <div class="shop-container">
+            <div class="header">
+                <div class="brand">NEO<br>VEIKKAUS</div>
+                <div class="close-btn" onclick="closeShop()">×</div>
+            </div>
+            <div class="title">NEO-ÄSSÄ KIOSKI</div>
+            
+            <div class="product-card">
+                <img src="assets/scratch_card_preview.png" alt="Neo-Ässä">
+                <div class="product-info">
+                    <h2>Neo-Ässä</h2>
+                    <p>Digitaalinen raaputusarpa</p>
+                    <div class="price">4€</div>
+                    <div class="jackpot">Päävoitto 100 000€</div>
+                </div>
+                <button class="buy-btn" onclick="buyCard()">OSTA ARPA</button>
+                <button class="sell-btn" onclick="sellCard()">MYY ARPA (2€)</button>
+            </div>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+</body>
+</html>

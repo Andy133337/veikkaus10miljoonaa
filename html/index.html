@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neo-Ässä Raaputusarpa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scratch-card" class="hidden">
+        <div class="card-container">
+            <div class="header">
+                <div class="brand">NEO<br>VEIKKAUS</div>
+                <div class="price">4€</div>
+            </div>
+            <div class="card-title">NEO-ÄSSÄ</div>
+            <div class="card-subtitle">DIGITAALINEN ARPA</div>
+            <div class="jackpot">PÄÄVOITTO 100 000€</div>
+            <div class="instruction">Raaputa paljastaaksesi voittosummat</div>
+            <div class="scratch-area">
+                <canvas id="scratch-canvas"></canvas>
+                <div id="prize-area"></div>
+            </div>
+            <div class="card-footer">
+                <div class="serial-number">
+                    <span>SARJANUMERO</span>
+                    <div id="serial">AS24109806</div>
+                </div>
+                <div class="verification">KVANTTIVARMISTETTU</div>
+            </div>
+            <div id="win-overlay" class="hidden">
+                <div class="win-content">
+                    <h2>Onneksi olkoon!</h2>
+                    <p>Voitit <span id="win-amount">0</span>€</p>
+                </div>
+            </div>
+        </div>
+        <button id="close-btn">SULJE ×</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
